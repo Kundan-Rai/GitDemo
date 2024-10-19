@@ -7,11 +7,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
 // Conventional approach
 public class OnlineShoppingApplication
 {
-	public static void main(String[] args)
+	@Test
+	public void addProductToCart()
 	{
 		// Lunch the chrome browser
 		WebDriver driver = new ChromeDriver();
@@ -49,5 +51,7 @@ public class OnlineShoppingApplication
 				addToCart.get(i).click();
 			}
 		}
+		
+		driver.close();
 	}
 }
