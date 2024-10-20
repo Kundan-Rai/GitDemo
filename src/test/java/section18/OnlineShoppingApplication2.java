@@ -12,11 +12,13 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.Test;
 
 // Java Stream approach
 public class OnlineShoppingApplication2
 {
-	public static void main(String[] args) throws InterruptedException
+	@Test
+	public void orderProduct() throws InterruptedException
 	{
 		// Product to add in the cart
 		String productName = "ADIDAS ORIGINAL";

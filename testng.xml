@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
   	<classes>
   		<class name="section18.OnlineShoppingApplication"/>
+  		<class name="section18.OnlineShoppingApplication2"/>
   	</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
