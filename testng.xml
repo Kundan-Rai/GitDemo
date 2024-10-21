@@ -5,6 +5,7 @@
   	<classes>
   		<class name="section18.OnlineShoppingApplication"/>
   		<class name="section18.OnlineShoppingApplication2"/>
+  		<class name="section18.DemoTest"/>
   	</classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

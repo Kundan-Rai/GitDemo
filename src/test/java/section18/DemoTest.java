@@ -22,4 +22,10 @@ public class DemoTest
 	{
 		System.out.println("m3 method");
 	}
+	
+	@Test
+	public void m4()
+	{
+		System.out.println("m3 method");
+	}
 }
